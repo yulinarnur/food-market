@@ -45,11 +45,11 @@ class FoodController extends Controller
         $food = Food::query();
 
         if($name) {
-            $food->where('name','llike','%' . $name . '%');
+            $food->where('name','like','%' . $name . '%');
         }
 
         if($types) {
-            $food->where('types','llike','%' . $types . '%');
+            $food->where('types','like','%' . $types . '%');
         }
 
         if($price_from) {
