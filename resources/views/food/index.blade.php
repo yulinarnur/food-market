@@ -12,7 +12,7 @@
                 + Create Food
             </a>
            </div>
-           <div class="bt-white">
+           <div class="bg-white">
             <table class="table-auto w-full">
                 <thead>
                     <tr>
